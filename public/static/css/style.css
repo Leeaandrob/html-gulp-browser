@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Trajanus;
+    /* src: url('https://leeaandrob.github.io/mercurio/static/fonts/trajanus.ttf'); */
+    src: url('../fonts/trajanus.ttf') format('truetype');
+}
+
+body {
+    font-family: Trajanus;
+}
+
+hr {
+    border-top: 1px solid #000;
+}
+
+footer {
+    background-color: #656565;
+}
+
+footer > .container {
+    padding: 1rem;
+}
+
+footer > .container > span {
+    color: #fff !important;
+}
+
+.nav-background {
+    background-color: rgba(137, 137, 128, 0.50);
+}
+
+.bg-first-section {
+    background-image: url('https://leeaandrob.github.io/mercurio/static/img/fundo.png');
+}
+
+.image-responsive {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* NEW */
+}
+
+#home {
+    min-height: 100vh;
+    background-image: url("https://leeaandrob.github.io/mercurio/static/img/fundo.png");
+}
+
+#quem-somos{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* NEW */
+}
+
+#quem-somos {
+    background-image: url("https://leeaandrob.github.io/mercurio/static/img/quem-somos.png");
+    min-height: 100vh;
+}
+
+.text-quem-somos {
+    border: 1px solid #b76957;
+    background-color: rgba(183, 105, 87, 0.70);
+    padding: 1rem;
+}
+
+.text-quem-somos > h1 {
+    color: #fff;
+}
+
+.fill-quemsomos {
+    min-height: 100%;
+    height: 100%;
+    margin-top: 6rem;
+}
+
+#equipe {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* NEW */
+    margin-bottom: 2rem;
+}
+
+.div-fa-linkedin {
+    margin-top: 2rem;
+}
+
+.fill-equipe {
+    min-height: 100%;
+    height: 100%;
+    margin-top: 6rem;
+}
+
+.equipe-text {
+    padding: 1rem;
+}
+
+.h1-equipe {
+    color: #b76957;
+    margin-bottom: 2rem;
+}
+
+.h2-equipe {
+    color: #b76957;
+}
+
+.h3-equipe {
+    color: #b76957;
+}
+
+#atuacao {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* NEW */
+    background-image: url("https://leeaandrob.github.io/mercurio/static/img/fundo.png");
+}
+
+#contato {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* NEW */
+}
+
+.fa-linkedin {
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    color: #b76a58;
+}
+
+.hidden-xs-down {
+    display:none !important;
+}
+
+.img-center {margin:0 auto;}
+
+.div-contato-texto {
+    margin-top: 2rem;
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    p {font-size: 15px;}
+    .fa-linkedin {
+        margin-top: 0.7rem;
+        font-size: 2.4rem;
+        color: #b76a58;
+    }
+
+    .circle-linkedin {
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .row-logo {
+        margin-top: 50vh;
+    }
+
+    .div-contato {
+        margin-top: 3.5rem;
+    }
+
+    .brand-contato {
+        margin-top: 1rem;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    .div-contato {
+        margin-top: 2rem;
+    }
+    .circle-linkedin {
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+    }
+    .brand-contato {
+        margin-top: 1rem;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .row-logo {
+        margin-top: 50vh;
+    }
+    .fa-linkedin {
+        font-size:3.2rem;
+    }
+    .circle-linkedin {
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .brand-contato {
+        margin-top: 2rem;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .row-logo {
+        margin-top: 50vh;
+    }
+    .fa-linkedin {
+        font-size:3.2rem;
+    }
+    .circle-linkedin {
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .brand-contato {
+        margin-top: 2rem;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .row-logo {
+        margin-top: 50vh;
+    }
+
+    .fa-linkedin {
+        font-size:3.2rem;
+    }
+
+    .circle-linkedin {
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .brand-contato {
+        margin-top: 2rem;
+    }
+}
