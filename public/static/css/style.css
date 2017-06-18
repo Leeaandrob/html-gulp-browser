@@ -154,58 +154,11 @@ footer > .container > span {
 
 .img-center {margin:0 auto;}
 
-.div-contato-texto {
-    margin-top: 2rem;
-}
-
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-    p {font-size: 15px;}
-    .fa-linkedin {
-        margin-top: 0.7rem;
-        font-size: 2.4rem;
-        color: #b76a58;
-    }
-
-    .circle-linkedin {
-        border: 1px solid #b76957;
-        border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
-    }
-
-    .row-logo {
-        margin-top: 50vh;
-    }
-
-    .div-contato {
-        margin-top: 3.5rem;
-    }
-
-    .brand-contato {
-        margin-top: 1rem;
-    }
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-    .div-contato {
-        margin-top: 2rem;
-    }
-    .circle-linkedin {
-        border: 1px solid #b76957;
-        border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
-    }
-    .brand-contato {
-        margin-top: 1rem;
-    }
-}
-
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+    .text-quem-somos > p {
+        font-size: 16px;
+    }
     .row-logo {
         margin-top: 50vh;
     }
@@ -213,18 +166,22 @@ footer > .container > span {
         font-size:3.2rem;
     }
     .circle-linkedin {
+        margin-top: 2rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
     }
-    .brand-contato {
+    .div-contato-texto {
         margin-top: 2rem;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+    .text-quem-somos > p {
+        font-size: 16px;
+    }
     .row-logo {
         margin-top: 50vh;
     }
@@ -232,12 +189,13 @@ footer > .container > span {
         font-size:3.2rem;
     }
     .circle-linkedin {
+        margin-top: 2rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
     }
-    .brand-contato {
+    .div-contato-texto {
         margin-top: 2rem;
     }
 }
@@ -255,10 +213,102 @@ footer > .container > span {
     .circle-linkedin {
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .brand-contato {
+        font-size: 25px;
+        margin-top: 1rem;
+        margin-left: 1.6rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    nav {font-size:16px;}
+    p {font-size: 15px;}
+    .fa-linkedin {
+        margin-top: 0.7rem;
+        font-size: 2.4rem;
+        color: #b76a58;
+    }
+
+    .circle-linkedin {
+        margin-top: 1rem;
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .row-logo {
+        margin-top: 50vh;
+    }
+
+    .div-contato {
+        margin-top: 3.5rem;
     }
     .brand-contato {
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-left: 1.6rem;
+    }
+    .div-contato-texto {
+        margin-top: 0rem;
+    }
+    .div-atuacao {
         margin-top: 2rem;
+    }
+    .box-atuacao {
+        border: 1px solid #b76957;
+        color: #fff;
+        background-color: #b76957;
+        margin-right: 5px;
+        width: 32.333333%;
+        height: 55rem;
+    }
+    .atuacao-icon > img {
+        width: 35%
+    }
+    .atuacao-icon-seta > img {
+        width: 30%
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    nav {font-size:16px;}
+    .div-contato {
+        margin-top: 2rem;
+    }
+    .circle-linkedin {
+        margin-top: 1rem;
+        border: 1px solid #b76957;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+    }
+    .div-contato-texto {
+        margin-top: 0rem;
+    }
+
+    .div-atuacao {
+        margin-top: 2rem;
+    }
+
+    .box-atuacao {
+        border: 1px solid #b76957;
+        color: #fff;
+        background-color: #b76957;
+        margin-right: 5px;
+        width: 32.333333%;
+        height: 55rem;
+    }
+    .atuacao-icon > img {
+        width: 35%
+    }
+    .atuacao-icon-seta > img {
+        width: 30%
     }
 }

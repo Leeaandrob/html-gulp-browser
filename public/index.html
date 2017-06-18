@@ -6,6 +6,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./static/css/style.css">
         <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top nav-background">
@@ -70,7 +76,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -86,7 +92,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -101,7 +107,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -116,7 +122,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -131,7 +137,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -146,7 +152,7 @@
                                 <hr/>
                             </div>
                             <div class="col-xs-3 text-center">
-                                <div style="border: 1px solid;border-radius: 50%;width: 6rem;height: 6rem;">
+                                <div class="circle-linkedin">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -290,8 +296,41 @@
         <section id="atuacao">
             <div class="container">
                 <div class="row fill">
-                    <div class="col-lg-6 col-md-6 col-xs-12 mx-auto">
-                        <img src="https://leeaandrob.github.io/mercurio/static/img/logo.png" class="image-responsive" alt="Mercurio Partners">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div-atuacao">
+                        <h1 class="text-center h1-equipe">Atuação</h1>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 box-atuacao text-center">
+                                <div class="atuacao-icon">
+                                    <img src="./static/img/alvo.png">
+                                </div>
+                                <h1>ESTRATÉGIA</h1>
+                                <h2>Expertise</h2>
+                                <p><h4>Com ampla experiência em estratégia corporativa para nível executivo, nossa atuação inicia no desenvolvimento e segue até a implantação das estratégias de processo dos nossos clientes.</h4></p>
+                                <h2>Filosofia</h2>
+                                <p><h4>Uma boa estratégia impacta diretamente nos resultados de negócio. Por isso, nos concentramos em criar valor para nossos clientes avaliando opções concretas como estratégias de entrada no mercado, crescimento orgânico e não orgânico, etc.</h4></p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 box-atuacao text-center">
+                                <div class="atuacao-icon">
+                                    <img src="./static/img/maos.png">
+                                </div>
+                                <h1>M&A</h1>
+                                <h2>Expertise</h2>
+                                <p><h4>Nosso time acumula mais de 50 anos de know-how em M&A em diferentes indústrias e setores. Ao longo desses anos, seus profissionais lideraram relevantes soluções de financiamento.</h4></p>
+                                <h2>Filosofia</h2>
+                                <p><h4>Criar benefícios de longo prazo para os negócios dos nossos clientes é o nosso objetivo. São exemplos a orientação por um portfólio mais diversificado, ativos menos alavancados ou uma carteira que ofereça um crescimento sustentável.</h4></p>
+
+                            </div>
+                            <div class="col-lg-4 col-md-4 box-atuacao text-center">
+                                <div class="atuacao-icon-seta">
+                                    <img src="./static/img/seta.png">
+                                </div>
+                                <h1>REESTRUTURAÇÃO</h1>
+                                <h2>Expertise</h2>
+                                <p><h4>A experiência de liderar uma das reestruturações de maior sucesso no Brasil levou nossa equipe a ser uma referência de atuação nesse serviço.</h4></p>
+                                <h2>Filosofia</h2>
+                                <p><h4>Uma reestruturação de sucesso precisa transformar ameaças em oportunidade. Garantir a longevidade e uma recuperação sustentável são chaves para dar uma reestruturação bem sucedida Desta forma, cria-se uma nova perspectiva para a companhia e seus stakeholders.</h4></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -322,17 +361,18 @@
                                 </form>
                             </div>
                             <div class="col-lg-3 col-lg-offset-2 col-md-6 col-sm-6 col-xs-12 div-contato-texto">
-                                <h4><b>Mercurio Partners</b></h4>
-                                <p>Rua Jardim Botânico, 635 - sala 803 e 804</p>
-                                <p>Rio de Janeiro | RJ | 22470-050</p>
+                                <h2><b>Mercurio Partners</b></h2>
+                                <p><h4>Rua Jardim Botânico, 635 - sala 803 e 804</h4></p>
+                                <p><h4>Rio de Janeiro | RJ | 22470-050</h4></p>
                                 <br/>
-                                <p>Tel.:21 - 2530-0767</p>
-                                <p>contato@mercuriopartners.com.br</p>
+                                <p><h4>Tel.:21 - 2530-0767</h4></p>
+                                <p><h4>contato@mercuriopartners.com.br</h4></p>
                                 <div class="row">
                                     <div class="col-lg-1 col-xs-1">
                                         <div class="circle-linkedin text-center"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
                                     </div>
-                                    <div class="col-lg-8 col-lg-offset-1 col-xs-8 col-xs-offset-1 brand-contato">MERCURIO PARTNERS</div>
+                                    <!-- <div class="col-lg-10 col-lg-offset-1 col-xs-8 col-xs-offset-1 brand-contato">MERCURIO PARTNERS</div> -->
+                                    <div class="col-lg-10 col-lg-offset-1 col-xs-8 col-xs-offset-1 brand-contato"></div>
                                 </div>
                             </div>
 						</div>
@@ -347,7 +387,8 @@
                 <span class="text-muted">DESENVOLVIDO POR EUGOSTODE COMUNICAÇÃO</span>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
