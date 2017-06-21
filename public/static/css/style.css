@@ -42,10 +42,15 @@ footer > .container > span {
     justify-content: space-between;
 }
 
-.fill {
+.fill-contato {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fill-atuacao {
     min-height: 100%;
     height: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -175,6 +180,30 @@ footer > .container > span {
     .div-contato-texto {
         margin-top: 2rem;
     }
+    .div-atuacao {
+        margin-top: 2rem;
+    }
+    .box-atuacao {
+        border: 1px solid #b76957;
+        color: #fff;
+        background-color: #b76957;
+        height: 55rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .box-atuacao > h2 {
+        font-size: 28px;
+    }
+    .atuacao-icon > img {
+        width: 35%
+    }
+    .atuacao-icon-seta > img {
+        width: 32%
+    }
+    .logo-menu {
+        max-width: 15rem;
+        margin-top: -7px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -194,9 +223,33 @@ footer > .container > span {
         border-radius: 50%;
         width: 5rem;
         height: 5rem;
+        padding: 1rem;
     }
     .div-contato-texto {
         margin-top: 2rem;
+    }
+    .div-atuacao {
+        margin-top: 2rem;
+    }
+    .box-atuacao {
+        border: 1px solid #b76957;
+        color: #fff;
+        background-color: #b76957;
+        margin-bottom: 1rem;
+        height: 55rem;
+    }
+    .box-atuacao > h2 {
+        font-size: 28px;
+    }
+    .atuacao-icon > img {
+        width: 35%
+    }
+    .atuacao-icon-seta > img {
+        width: 32%
+    }
+    .logo-menu {
+        max-width: 15rem;
+        margin-top: -7px;
     }
 }
 
@@ -222,6 +275,30 @@ footer > .container > span {
         margin-top: 1rem;
         margin-left: 1.6rem;
     }
+    .div-atuacao {
+        margin-top: 2rem;
+    }
+    .box-atuacao {
+        border: 1px solid #b76957;
+        color: #fff;
+        background-color: #b76957;
+        margin-bottom: 1rem;
+        height: 55rem;
+        padding: 1rem;
+    }
+    .box-atuacao > h2 {
+        font-size: 28px;
+    }
+    .atuacao-icon > img {
+        width: 35%
+    }
+    .atuacao-icon-seta > img {
+        width: 32%
+    }
+    .logo-menu {
+        max-width: 15rem;
+        margin-top: -7px;
+    }
 }
 
 /* Desktops and laptops ----------- */
@@ -238,8 +315,8 @@ footer > .container > span {
         margin-top: 1rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
+        width: 5.5rem;
+        height: 5.5rem;
     }
 
     .row-logo {
@@ -265,14 +342,20 @@ footer > .container > span {
         color: #fff;
         background-color: #b76957;
         margin-right: 5px;
-        width: 32.333333%;
+        width: 24.5%;
         height: 55rem;
+    }
+    .box-atuacao > h2 {
+        font-size: 28px;
     }
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
         width: 32%
+    }
+    .logo-menu {
+        max-width: 20rem;; margin-top: -7px;
     }
 }
 
@@ -286,8 +369,8 @@ footer > .container > span {
         margin-top: 1rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
+        width: 5.5rem;
+        height: 5.5rem;
     }
     .div-contato-texto {
         margin-top: 0rem;
@@ -302,13 +385,22 @@ footer > .container > span {
         color: #fff;
         background-color: #b76957;
         margin-right: 5px;
-        width: 32.333333%;
+        width: 24.5%;
         height: 55rem;
     }
+
+    .box-atuacao > h2 {
+        font-size: 28px;
+    }
+
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
         width: 32%
+    }
+
+    .logo-menu {
+        max-width: 20rem;; margin-top: -7px;
     }
 }
