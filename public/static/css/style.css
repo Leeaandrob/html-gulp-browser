@@ -58,7 +58,7 @@ footer > .container > span {
 
 #home {
     min-height: 100vh;
-    background-image: url("https://leeaandrob.github.io/mercurio/static/img/fundo.png");
+    background-color: rgba(196, 196, 191, 0.05);
 }
 
 #quem-somos{
