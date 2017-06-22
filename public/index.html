@@ -474,21 +474,42 @@
                         $('.nav-background').css('background-color', 'rgba(137, 137, 128, 0.50)');
                     }
 
-                    if(scroll >= 0 && scroll <= 955){
+                    if($(window).width() > 425) {
+                        if(scroll >= 0 && scroll <= 955){
+                            $('li.current').removeClass('current');
+                            $('#li-home').addClass('current');
+                        } else if (scroll >= 956 && scroll <= 1911) {
+                            $('li.current').removeClass('current');
+                            $('#li-quemsomos').addClass('current');
+                        } else if (scroll >= 1912 && scroll <= 3231) {
+                            $('li.current').removeClass('current');
+                            $('#li-equipe').addClass('current');
+                        } else if (scroll >= 3232 && scroll <= 4187) {
+                            $('li.current').removeClass('current');
+                            $('#li-atuacao').addClass('current');
+                        } else if (scroll >= 4188) {
+                            $('li.current').removeClass('current');
+                            $('#li-contato').addClass('current');
+                        }
+                    } else if ($(window).width() < 425){
                         $('li.current').removeClass('current');
-                        $('#li-home').addClass('current');
-                    } else if (scroll >= 956 && scroll <= 1911) {
-                        $('li.current').removeClass('current');
-                        $('#li-quemsomos').addClass('current');
-                    } else if (scroll >= 1912 && scroll <= 3231) {
-                        $('li.current').removeClass('current');
-                        $('#li-equipe').addClass('current');
-                    } else if (scroll >= 3232 && scroll <= 4187) {
-                        $('li.current').removeClass('current');
-                        $('#li-atuacao').addClass('current');
-                    } else if (scroll >= 4188) {
-                        $('li.current').removeClass('current');
-                        $('#li-contato').addClass('current');
+
+                        if(scroll >= 0 && scroll <= 385){
+                            $('li.active').removeClass('active');
+                            $('#li-home').addClass('active');
+                        } else if (scroll >= 386 && scroll <= 1255) {
+                            $('li.active').removeClass('active');
+                            $('#li-quemsomos').addClass('active');
+                        } else if (scroll >= 1256 && scroll <= 3839) {
+                            $('li.active').removeClass('active');
+                            $('#li-equipe').addClass('active');
+                        } else if (scroll >= 3840 && scroll <= 6103) {
+                            $('li.active').removeClass('active');
+                            $('#li-atuacao').addClass('active');
+                        } else if (scroll >= 6104) {
+                            $('li.active').removeClass('active');
+                            $('#li-contato').addClass('active');
+                        }
                     }
                 });
             });

@@ -35,6 +35,8 @@ footer > .container > span {
     color: #fff !important;
 }
 
+
+
 .nav-background {
     background-color: rgba(137, 137, 128, 0.50);
 }
@@ -268,6 +270,13 @@ footer > .container > span {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    .logo-menu {
+        margin-top: 2rem !important;
+    }
+
+    .nav {
+        margin-top: 3rem;
+    }
     #home {
         min-height: 100vh;
         background-color: rgba(196, 196, 191, 0.05);
@@ -336,12 +345,26 @@ footer > .container > span {
         height: 70rem;
         margin-right: 1%;
     }
+    .logo-menu {
+        margin-top: 2rem !important;
+    }
+
+    .nav {
+        margin-top: 3rem;
+    }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
     nav {font-size:16px;}
     p {font-size: 15px;}
+    .logo-menu {
+        margin-top: 2rem !important;
+    }
+
+    .nav {
+        margin-top: 3rem;
+    }
     #home {
         min-height: 100vh;
         background-color: rgba(196, 196, 191, 0.05);
@@ -404,6 +427,13 @@ footer > .container > span {
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
     nav {font-size:16px;}
+    .logo-menu {
+        margin-top: 2rem !important;
+    }
+
+    .nav {
+        margin-top: 3rem;
+    }
     #home {
         min-height: 100vh;
         background-color: rgba(196, 196, 191, 0.05);
