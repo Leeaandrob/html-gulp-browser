@@ -4,8 +4,19 @@
     src: url('../fonts/trajanus.ttf') format('truetype');
 }
 
+.current > a:after{
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(0, 0, 0);
+    border-right: 20px solid rgb(0, 0, 0);
+    border-top: 3px solid #000000;
+    content: " ";
+    position: absolute;
+    bottom: 5px;
+    left: 26%;
+}
+
 body {
-    font-family: Trajanus;
 }
 
 hr {
@@ -13,7 +24,7 @@ hr {
 }
 
 footer {
-    background-color: #656565;
+    background-color: #b2b2b1;
 }
 
 footer > .container {
@@ -29,7 +40,7 @@ footer > .container > span {
 }
 
 .bg-first-section {
-    background-image: url('https://leeaandrob.github.io/mercurio/static/img/fundo.png');
+    background-image: url('../img/fundo.png');
 }
 
 .image-responsive {
@@ -61,10 +72,7 @@ footer > .container > span {
     display: flex; /* NEW */
 }
 
-#home {
-    min-height: 100vh;
-    background-color: rgba(196, 196, 191, 0.05);
-}
+
 
 #quem-somos{
     background-size: cover;
@@ -74,7 +82,7 @@ footer > .container > span {
 }
 
 #quem-somos {
-    background-image: url("https://leeaandrob.github.io/mercurio/static/img/quem-somos.png");
+    background-image: url("../img/quem-somos.png");
     min-height: 100vh;
 }
 
@@ -101,10 +109,6 @@ footer > .container > span {
     background-position: center;
     display: flex; /* NEW */
     margin-bottom: 2rem;
-}
-
-.div-fa-linkedin {
-    margin-top: 2rem;
 }
 
 .fill-equipe {
@@ -136,22 +140,16 @@ footer > .container > span {
     background-repeat: no-repeat;
     background-position: center;
     display: flex; /* NEW */
-    background-image: url("https://leeaandrob.github.io/mercurio/static/img/fundo.png");
+    background-image: url("../img/fundo.png");
 }
 
-#contato {
-    min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex; /* NEW */
-}
-
-.fa-linkedin {
-    margin-top: 0.7rem;
-    font-size: 1.4rem;
-    color: #b76a58;
-}
+/* #contato { */
+/*     min-height: 90vh; */
+/*     background-size: cover; */
+/*     background-repeat: no-repeat; */
+/*     background-position: center; */
+/*     display: flex; /1* NEW *1/ */
+/* } */
 
 .hidden-xs-down {
     display:none !important;
@@ -159,16 +157,28 @@ footer > .container > span {
 
 .img-center {margin:0 auto;}
 
+.equipe-text > p {
+    margin-left: 3rem;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+
+    #home {
+        min-height: 50vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
+
     .text-quem-somos > p {
         font-size: 16px;
     }
     .row-logo {
-        margin-top: 50vh;
+        margin-top: 25vh;
     }
     .fa-linkedin {
         font-size:3.2rem;
+        margin-top: 0.7rem;
+        color: #b76a58;
     }
     .circle-linkedin {
         margin-top: 2rem;
@@ -178,7 +188,6 @@ footer > .container > span {
         height: 5rem;
     }
     .div-contato-texto {
-        margin-top: 2rem;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -187,7 +196,6 @@ footer > .container > span {
         border: 1px solid #b76957;
         color: #fff;
         background-color: #b76957;
-        height: 55rem;
         margin-bottom: 1rem;
         padding: 1rem;
     }
@@ -208,6 +216,11 @@ footer > .container > span {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+    #home {
+        min-height: 100vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
+
     .text-quem-somos > p {
         font-size: 16px;
     }
@@ -216,6 +229,8 @@ footer > .container > span {
     }
     .fa-linkedin {
         font-size:3.2rem;
+        margin-top: 0.7rem;
+        color: #b76a58;
     }
     .circle-linkedin {
         margin-top: 2rem;
@@ -226,7 +241,6 @@ footer > .container > span {
         padding: 1rem;
     }
     .div-contato-texto {
-        margin-top: 2rem;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -236,7 +250,6 @@ footer > .container > span {
         color: #fff;
         background-color: #b76957;
         margin-bottom: 1rem;
-        height: 55rem;
     }
     .box-atuacao > h2 {
         font-size: 28px;
@@ -255,12 +268,19 @@ footer > .container > span {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    #home {
+        min-height: 100vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
+
     .row-logo {
         margin-top: 50vh;
     }
 
     .fa-linkedin {
+        color: #b76a58;
         font-size:3.2rem;
+        margin-top: 0rem;
     }
 
     .circle-linkedin {
@@ -268,6 +288,7 @@ footer > .container > span {
         border-radius: 50%;
         width: 5rem;
         height: 5rem;
+        margin-top: 0rem !important;
     }
 
     .brand-contato {
@@ -301,12 +322,31 @@ footer > .container > span {
     }
 }
 
+
+@media only screen  and (min-width : 992px) {
+    #home {
+        min-height: 100vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
+    .col-md-3 {
+        width: 24%;
+    }
+
+    .box-atuacao {
+        height: 70rem;
+        margin-right: 1%;
+    }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
     nav {font-size:16px;}
     p {font-size: 15px;}
+    #home {
+        min-height: 100vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
     .fa-linkedin {
-        margin-top: 0.7rem;
         font-size: 2.4rem;
         color: #b76a58;
     }
@@ -315,8 +355,8 @@ footer > .container > span {
         margin-top: 1rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .row-logo {
@@ -332,7 +372,6 @@ footer > .container > span {
         margin-left: 1.6rem;
     }
     .div-contato-texto {
-        margin-top: 0rem;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -343,7 +382,7 @@ footer > .container > span {
         background-color: #b76957;
         margin-right: 5px;
         width: 24.5%;
-        height: 55rem;
+        height: 60rem;
     }
     .box-atuacao > h2 {
         font-size: 28px;
@@ -357,11 +396,18 @@ footer > .container > span {
     .logo-menu {
         max-width: 20rem;; margin-top: -7px;
     }
+    #contato {
+        min-height: 70vh !important;
+    }
 }
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
     nav {font-size:16px;}
+    #home {
+        min-height: 100vh;
+        background-color: rgba(196, 196, 191, 0.05);
+    }
     .div-contato {
         margin-top: 2rem;
     }
@@ -369,11 +415,10 @@ footer > .container > span {
         margin-top: 1rem;
         border: 1px solid #b76957;
         border-radius: 50%;
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 5rem;
+        height: 5rem;
     }
     .div-contato-texto {
-        margin-top: 0rem;
     }
 
     .div-atuacao {
@@ -402,5 +447,13 @@ footer > .container > span {
 
     .logo-menu {
         max-width: 20rem;; margin-top: -7px;
+    }
+    .fa-linkedin {
+        font-size: 2.4rem;
+        color: #b76a58;
+    }
+
+    #contato {
+        min-height: 70vh !important;
     }
 }
