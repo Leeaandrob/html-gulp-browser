@@ -1,7 +1,14 @@
 @font-face {
-    font-family: Trajanus;
-    /* src: url('https://leeaandrob.github.io/mercurio/static/fonts/trajanus.ttf'); */
-    src: url('../fonts/trajanus.ttf') format('truetype');
+    font-family: Calibri;
+    src: url('../fonts/Calibri.ttf') format('truetype'),
+    src: url('../fonts/Calibri.eot') format('eot'),
+    src: url('../fonts/Calibri.woff') format('woff');
+}
+
+@font-face {
+    font-family: Helvetica-Regular;
+    src: url('../fonts/Helvetica-Regular.ttf') format('truetype'),
+    src: url('../fonts/Helvetica-Regular.woff') format('woff');
 }
 
 .current > a:after{
@@ -32,7 +39,7 @@ footer > .container {
 }
 
 footer > .container > span {
-    color: #fff !important;
+    color: #222222 !important;
 }
 
 
@@ -74,8 +81,6 @@ footer > .container > span {
     display: flex; /* NEW */
 }
 
-
-
 #quem-somos{
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,6 +101,12 @@ footer > .container > span {
 
 .text-quem-somos > h1 {
     color: #fff;
+    font-family: 'Cinzel', serif;
+}
+
+.text-quem-somos > p {
+    color: #000;
+    font-family: 'Helvetica-Regular', serif;
 }
 
 .fill-quemsomos {
@@ -126,6 +137,7 @@ footer > .container > span {
 .h1-equipe {
     color: #b76957;
     margin-bottom: 2rem;
+    font-family: 'Cinzel', serif;
 }
 
 .h2-equipe {
@@ -161,6 +173,15 @@ footer > .container > span {
 
 .equipe-text > p {
     margin-left: 3rem;
+}
+
+.box-atuacao > * {
+    font-family: Calibri;
+}
+
+.box-atuacao > h2 {
+    font-size: 26px;
+    font-family: Cinzel;
 }
 
 /* Custom, iPhone Retina */
@@ -202,13 +223,19 @@ footer > .container > span {
         padding: 1rem;
     }
     .box-atuacao > h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
     .atuacao-icon > img {
+        margin-top: 2em;
         width: 35%
     }
     .atuacao-icon-seta > img {
-        width: 32%
+        margin-top: 2em;
+        width: 28%;
+    }
+    .atuacao-icon-venture > img {
+        margin-top: 2em;
+        width: 25%;
     }
     .logo-menu {
         max-width: 15rem;
@@ -254,13 +281,16 @@ footer > .container > span {
         margin-bottom: 1rem;
     }
     .box-atuacao > h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
-        width: 32%
+        width: 28%;
+    }
+    .atuacao-icon-venture > img {
+        width: 25%;
     }
     .logo-menu {
         max-width: 15rem;
@@ -317,14 +347,18 @@ footer > .container > span {
         padding: 1rem;
     }
     .box-atuacao > h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
-        width: 32%
+        width: 28%;
     }
+    .atuacao-icon-venture > img {
+        width: 25%;
+    }
+
     .logo-menu {
         max-width: 15rem;
         margin-top: -7px;
@@ -351,6 +385,12 @@ footer > .container > span {
 
     .nav {
         margin-top: 3rem;
+    }
+    .text-quem-somos > p {
+        font-size: 21px;
+    }
+    .atuacao-icon-venture > img {
+        width: 25%;
     }
 }
 
@@ -405,22 +445,28 @@ footer > .container > span {
         background-color: #b76957;
         margin-right: 5px;
         width: 24.5%;
-        height: 60rem;
+        height: 75rem;
     }
     .box-atuacao > h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
-        width: 32%
+        width: 28%;
+    }
+    .atuacao-icon-venture > img {
+        width: 25%;
     }
     .logo-menu {
         max-width: 20rem;; margin-top: -7px;
     }
     #contato {
         min-height: 70vh !important;
+    }
+    .text-quem-somos > p {
+        font-size: 21px;
     }
 }
 
@@ -461,18 +507,21 @@ footer > .container > span {
         background-color: #b76957;
         margin-right: 5px;
         width: 24.5%;
-        height: 55rem;
+        height: 75rem;
     }
 
     .box-atuacao > h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .atuacao-icon > img {
         width: 35%
     }
     .atuacao-icon-seta > img {
-        width: 32%
+        width: 28%;
+    }
+    .atuacao-icon-venture > img {
+        width: 25%;
     }
 
     .logo-menu {
@@ -486,4 +535,21 @@ footer > .container > span {
     #contato {
         min-height: 70vh !important;
     }
+
+    .text-quem-somos > p {
+        font-size: 21px;
+    }
+}
+
+#navbar > ul > li {
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+#navbar > ul > li > a {
+    color: #222222;
+}
+
+#navbar > ul > li > a {
+    color: #222222;
 }
