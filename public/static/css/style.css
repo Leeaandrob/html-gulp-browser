@@ -184,6 +184,20 @@ footer > .container > span {
     font-family: Cinzel;
 }
 
+label {
+    color: #69696d;
+}
+
+.btn-default {
+    color: #b76957;
+    background-color: #fff;
+    border-color: #b76957;
+}
+
+.div-contato {
+    font-family: Helvetica Regular;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
@@ -210,7 +224,11 @@ footer > .container > span {
         width: 5rem;
         height: 5rem;
     }
-    .div-contato-texto {
+    .div-contato-texto > h2 {
+        color: #69696d;
+    }
+    .div-contato-texto > h4 {
+        color: #69696d;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -240,6 +258,16 @@ footer > .container > span {
     .logo-menu {
         max-width: 15rem;
         margin-top: -7px;
+    }
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
+    }
+    .brand-contato {
+        color: #69696d;
+        font-size: 21px;
+        margin-top: 3rem;
+        margin-left: 2.6rem;
     }
 }
 
@@ -269,7 +297,11 @@ footer > .container > span {
         height: 5rem;
         padding: 1rem;
     }
-    .div-contato-texto {
+    .div-contato-texto > h2 {
+        color: #69696d;
+    }
+    .div-contato-texto > h4 {
+        color: #69696d;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -295,6 +327,10 @@ footer > .container > span {
     .logo-menu {
         max-width: 15rem;
         margin-top: -7px;
+    }
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
     }
 }
 
@@ -331,7 +367,8 @@ footer > .container > span {
     }
 
     .brand-contato {
-        font-size: 25px;
+        color: #69696d;
+        font-size: 21px;
         margin-top: 1rem;
         margin-left: 1.6rem;
     }
@@ -363,6 +400,10 @@ footer > .container > span {
         max-width: 15rem;
         margin-top: -7px;
     }
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
+    }
 }
 
 
@@ -391,6 +432,10 @@ footer > .container > span {
     }
     .atuacao-icon-venture > img {
         width: 25%;
+    }
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
     }
 }
 
@@ -430,11 +475,16 @@ footer > .container > span {
         margin-top: 3.5rem;
     }
     .brand-contato {
+        color: #69696d;
         font-size: 20px;
         margin-top: 1rem;
-        margin-left: 1.6rem;
+        margin-left: 3rem;
     }
-    .div-contato-texto {
+    .div-contato-texto > h2{
+        color: #69696d;
+    }
+    .div-contato-texto > h4 {
+        color: #69696d;
     }
     .div-atuacao {
         margin-top: 2rem;
@@ -468,6 +518,10 @@ footer > .container > span {
     .text-quem-somos > p {
         font-size: 21px;
     }
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
+    }
 }
 
 /* Large screens ----------- */
@@ -487,6 +541,12 @@ footer > .container > span {
     .div-contato {
         margin-top: 2rem;
     }
+
+    .div-contato > h4 {
+        color: #676564;
+        margin-bottom: 6rem;
+    }
+
     .circle-linkedin {
         margin-top: 1rem;
         border: 1px solid #b76957;
@@ -494,7 +554,12 @@ footer > .container > span {
         width: 5rem;
         height: 5rem;
     }
-    .div-contato-texto {
+    .div-contato-texto > h2{
+        color: #69696d;
+    }
+
+    .div-contato-texto > h4 {
+        color: #69696d;
     }
 
     .div-atuacao {
@@ -538,6 +603,9 @@ footer > .container > span {
 
     .text-quem-somos > p {
         font-size: 21px;
+    }
+    .brand-contato {
+        margin-left: 3rem;
     }
 }
 
