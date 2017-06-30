@@ -195,7 +195,7 @@ label {
 }
 
 .div-contato {
-    font-family: Helvetica Regular;
+    font-family: Helvetica Regular !important;
 }
 
 /* Custom, iPhone Retina */
