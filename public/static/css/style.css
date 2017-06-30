@@ -95,7 +95,7 @@ footer > .container > span {
 
 .text-quem-somos {
     border: 1px solid #b76957;
-    background-color: rgba(183, 105, 87, 0.70);
+    background-color: rgba(183, 105, 87, 0.90);
     padding: 1rem;
 }
 
@@ -175,10 +175,6 @@ footer > .container > span {
     margin-left: 3rem;
 }
 
-.box-atuacao > * {
-    font-family: Calibri;
-}
-
 .box-atuacao > h2 {
     font-size: 26px;
     font-family: Cinzel;
@@ -242,6 +238,15 @@ label {
     }
     .box-atuacao > h2 {
         font-size: 26px;
+        font-family: Cinzel;
+    }
+    .box-atuacao > h3 {
+        font-size: 26px;
+        font-family: Calibri;
+    }
+    .box-atuacao > h4 {
+        font-size: 26px;
+        font-family: Calibri;
     }
     .atuacao-icon > img {
         margin-top: 2em;
