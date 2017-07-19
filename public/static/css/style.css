@@ -384,7 +384,7 @@ label {
         border: 1px solid #b76957;
         color: #fff;
         background-color: #b76957;
-        margin-bottom: 1rem;
+        margin-bottom: 7rem;
         height: 68rem;
         padding: 1rem;
     }
@@ -434,7 +434,7 @@ label {
     }
 
     .box-atuacao {
-        height: 83rem;
+        height: 90rem;
         margin-right: 1%;
     }
     .logo-menu {
@@ -475,16 +475,16 @@ label {
 
 @media only screen  and (min-width : 1200px) {
     .filosofia-margin-top-venture {
-        margin-top: 7.2rem;
+        margin-top: 11.8rem;
     }
     .filosofia-margin-top-ma{
         margin-top: 2.7rem;
     }
     .filosofia-margin-top-estrategia {
-        margin-top: 3rem;
+        margin-top: 11rem;
     }
     .filosofia-margin-top-reestruturacao{
-        margin-top: 7rem;
+        margin-top: 13rem;
     }
 }
 
@@ -544,7 +544,7 @@ label {
         background-color: #b76957;
         margin-right: 5px;
         width: 24.5%;
-        height: 74rem;
+        height: 78rem;
     }
     .box-atuacao > h2 {
         font-size: 26px;
@@ -576,16 +576,16 @@ label {
         font-size: 20px;
     }
     .filosofia-margin-top-venture {
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
     .filosofia-margin-top-ma{
         margin-top: 3rem;
     }
     .filosofia-margin-top-estrategia {
-        margin-top: 3rem;
+        margin-top: 9rem;
     }
     .filosofia-margin-top-reestruturacao{
-        margin-top: 7rem;
+        margin-top: 11rem;
     }
 }
 
