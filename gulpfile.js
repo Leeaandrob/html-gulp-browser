@@ -1,12 +1,16 @@
 'use strict';
 var gulp  = require('gulp'),
     browserify = require('browserify'),
+    count = require('gulp-count'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    minifyCSS = require('gulp-minify-css'),
     browserSync = require('browser-sync').create();
 
 gulp.task('serve', [], function() {
 
     browserSync.init({
-        server: './public/'
+        server: './dist/'
 
     });
 
@@ -26,13 +30,20 @@ gulp.task('html', function() {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src('./public/static/js/*.js')
+    return gulp.src([
+        './public/static/js/*.js',
+    ])
+        .pipe(count('## js-files selected'))
+        .pipe(concat('player.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('./dist/static/js'))
         .pipe(browserSync.stream());
 });
 
 gulp.task('styles', function() {
     return gulp.src('./public/static/css/*.css')
+        .pipe(minifyCSS())
+        .pipe(concat('player.min.css'))
         .pipe(gulp.dest('./dist/static/css'))
         .pipe(browserSync.stream());
 });
